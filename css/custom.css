@@ -29,7 +29,15 @@
   color: white !important;
 }
 
-.social-link.rounded-circle {
-  width: 30px;
-  height: 30px;
+#call-to-action {
+  padding-top: 2.5rem;
+  padding-bottom: 1.5rem;
+}
+
+#call-to-action-ul {
+  height: 2vh;
+}
+
+.caption-content {
+  color: black !important;
 }

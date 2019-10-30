@@ -14,6 +14,7 @@
     bottom: 0;
     z-index: 1;
     .caption-content {
+      display: none;
       color: $white;
       margin: auto 2rem 2rem;
       h2 {
@@ -54,6 +55,9 @@
         background-color: fade-out($primary, 0.1);
         -webkit-clip-path: inset(2rem);
         clip-path: inset(2rem);
+      }
+      .caption-content {
+        display: block;
       }
     }
   }

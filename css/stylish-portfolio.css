@@ -246,6 +246,7 @@ h6 {
 }
 
 .portfolio-item .caption .caption-content {
+  display: none;
   color: #fff;
   margin: auto 2rem 2rem;
 }
@@ -289,6 +290,9 @@ h6 {
     background-color: rgba(29, 128, 159, 0.9);
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);
+  }
+  .portfolio-item:hover .caption-content {
+    display: block;
   }
 }
 
@@ -389,7 +393,15 @@ a:hover, a:focus, a:active {
   color: white !important;
 }
 
-.social-link.rounded-circle {
-  width: 30px;
-  height: 30px;
+#call-to-action {
+  padding-top: 2.5rem;
+  padding-bottom: 1.5rem;
+}
+
+#call-to-action-ul {
+  height: 2vh;
+}
+
+.caption-content {
+  color: black !important;
 }
