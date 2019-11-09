@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-
+  <link rel='icon' href='img/favicon.ico' type='image/x-icon'/>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
@@ -19,7 +19,7 @@
   <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 
   <!-- Custom CSS -->
-  <link href="css/stylish-portfolio.min.css" rel="stylesheet">
+  <link href="css/stylish-portfolio.css" rel="stylesheet">
 
 </head>
 
@@ -95,56 +95,75 @@
         <h3 class="text-secondary mb-0">Portfolio</h3>
         <h2 class="mb-5">Recent Projects</h2>
       </div>
-      <div class="row no-gutters">
-        <div class="col-lg-6">
-          <a class="portfolio-item" target="_blank" href="https://symposia.herokuapp.com/">
-            <span class="caption">
-              <span class="caption-content">
-                <h2>Symposia</h2>
-                <p class="mb-0">A single page web application inspired by Basecamp</p>
-              </span>
-            </span>
-            <img class="img-fluid" src="img/symposia.jpg" alt="">
-          </a>
+      <div class="row">
+        <div class="card">
+          <img src="img/symposia.jpg" class="card-img-top" alt="Symposia">
+          <div class="card-body">
+            <h5 class="card-title">Symposia</h5>
+            <p class="card-text">A single page web application inspired by Basecamp</p>
+            <p class="card-text">■ Deployed AWS S3 cloud computing using FormData API to encapsulate user-uploaded images, allowing file preview before uploading </p>
+            <p class="card-text">■ Leveraged Jbuilder and Rails Active Record to eliminate >20% of Ajax requests when fetching nested data, significantly DRYing frontend code and shortening load times to improve user experience</p>
+            <p class="card-text">■ Realized separation of concerns by abstracting logic and visuals in different React components, removing extraneous prop threading and improving code portability and readability</p>
+          </div>
+          <div class="extra-leg">
+            <a href="https://symposia.herokuapp.com" target="_blank" class="btn btn-light">Live</a>
+            <a href="https://github.com/jc4883/Symposia" target="_blank" class="btn btn-light">Code</a>
+          </div>
         </div>
-        <div class="col-lg-6">
-          <a target="_blank" class="portfolio-item" href="https://jc4883.github.io/AnimationDemo/">
-            <span class="caption">
-              <span class="caption-content">
-                <h2>CSS Demo</h2>
-                <p class="mb-0">A scrollable page demonstrating dropdown menus, navbars, and fancy animations</p>
-              </span>
-            </span>
-            <img class="img-fluid" src="img/css_demo.jpg" alt="">
-          </a>
+
+        <div class="card">
+          <img src="img/css_demo.jpg" class="card-img-top" alt="CSS Demo">
+          <div class="card-body">
+            <h5 class="card-title">CSS Demo</h5>
+            <p class="card-text">A showcase of interesting effects, animations, and layouts using Sass, Bootstrap, and Javascript</p>
+            <p class="card-text">■ Incorporated media queries and Bootstrap’s inbuilt flexbox-grid system to produce a responsive web design adaptable to desktop, tablet, and mobile screens sizes</p>
+            <p class="card-text">■ Constructed Sass nesting to minimize dependencies in the file tree, naming collisions with Bootstrap, and visual bugs on the application</p>
+            <p class="card-text">■ Developed seamless UI using SCSS variables, keyframes, and scroll-snap to achieve practical animations and custom scrolling behavior</p>
+          </div>
+          <div class="extra-leg">
+            <a href="https://jc4883.github.io/AnimationDemo/" target="_blank" class="btn btn-light">Live</a>
+            <a href="https://github.com/jc4883/AnimationDemo" target="_blank" class="btn btn-light">Code</a>
+          </div>
         </div>
-        <div class="col-lg-6">
-          <a target="_blank" class="portfolio-item" href="https://github.com/jc4883/MonkeyFight">
-            <span class="caption">
-              <span class="caption-content">
-                <h2>Monkey Fight</h2>
-                <p class="mb-0">A 2D fighting game created with Lua and Corona SDK featuring 7 different attacks</p>
-              </span>
-            </span>
-            <img class="img-fluid" src="img/monkey_fight.jpg" alt="">
-          </a>
+
+        <div class="card">
+          <img src="img/monkey_fight.jpg" class="card-img-top" alt="CSS Demo">
+          <div class="card-body">
+            <h5 class="card-title">Monkey Fight</h5>
+            <p class="card-text">A cross-platform 2D fighting game written with Lua and Corona SDK inspired by Super Smash Bros.</p>
+            <p class="card-text">■ Created a variety of opponents with varying levels of weights, speeds, attacks, and patterns to deliver challenging and engaging gameplay</p>
+            <p class="card-text">■ Introduced stun mechanics when hit by an opponent by adjusting gravity, collisions, and sensor overlaps, contributing to fluid motion and fresh player experiences</p>
+            <p class="card-text">■ Designed custom Corona SDK polygons for hitboxes on both melee and ranged attacks</p>
+          </div>
+          <div>
+            <a href="https://github.com/jc4883/MonkeyFight" target="_blank" class="btn btn-light">Code</a>
+          </div>
         </div>
-        <div class="col-lg-6">
-          <a target="_blank" class="portfolio-item" href="https://github.com/jc4883/Link">
-            <span class="caption">
-              <span class="caption-content">
-                <h2>L!nk</h2>
-                <p class="mb-0">An iOS app built using UIKit and Firebase for organizing hangouts in college</p>
-              </span>
-            </span>
-            <img class="img-fluid" src="img/link.jpg" alt="">
-          </a>
+
+
+
+
+
+        <div class="card">
+          <img src="img/link.jpg" class="card-img-top" alt="CSS Demo">
+          <div class="card-body">
+            <h5 class="card-title">Link</h5>
+            <p class="card-text">An iOS application for college students to plan hangouts without texting</p>
+            <p class="card-text">■ Implemented Firebase Realtime NoSQL Database to allow eager-loading of user events and invitations data, resulting in minimal loading times and fluid user experience</p>
+            <p class="card-text">■ Utilized Firebase auth methods to confirm user’s sign-in state and enable CRUD on user models, allowing secure login sessions and personalized profiles.</p>
+          </div>
+          <div>
+              <a href="https://github.com/jc4883/Link" target="_blank" class="btn btn-light">Code</a>
+          </div>
         </div>
+    
+
+
+
+
       </div>
     </div>
   </section>
-
-
 
   <!-- Services -->
   <section class="content-section bg-light text-center" id="services">
