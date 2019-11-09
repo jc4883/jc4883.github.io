@@ -4,6 +4,12 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/blob/master/LICENSE)
  */
 
+#headshot {
+  width: 42vh !important;
+  border-radius: 50% !important;
+  border: none !important; 
+}
+
 
 .btn:focus {
   outline: none !important;

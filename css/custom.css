@@ -13,12 +13,6 @@
   background-color: white;
 }
 
-#headshot {
-  width: 25vh;
-  height: auto;
-  border-radius: 50%;
-  border: 5px #90d116 solid;
-}
 
 .subtitle-container {
   display: flex;
