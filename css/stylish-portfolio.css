@@ -4,37 +4,21 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/blob/master/LICENSE)
  */
 
-#headshot {
-  width: 42vh !important;
-  border-radius: 50% !important;
-  border: none !important; 
+.card {
+  width: 45% !important;
+  border: none;
+  margin: 10px;
 }
-
-
-.btn:focus {
-  outline: none !important;
+.row {
+  justify-content: center;
 }
-
- .row {
-   justify-content: center;
- }
 
 .card-body {
   background-color: skyblue;
 }
 
 .card-text {
-  color: #153b4a
-}
-
-.card {
-  border: none;
-  margin: 10px;
-  width: 45%;
-}
-
-.btn:focus {
-  outline: none;
+  color: #153b4a;
 }
 
 body,
