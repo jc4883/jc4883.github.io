@@ -54,6 +54,10 @@
   margin: 15px;
 }
 
+#headshot {
+  width: 50vh;
+}
+
 @media (max-width: 680px) {
   .card {
     width: 80%;
