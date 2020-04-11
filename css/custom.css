@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Stylish Portfolio v5.0.7 (https://startbootstrap.com/template-overviews/stylish-portfolio)
- * Copyright 2013-2019 Start Bootstrap
+ * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/blob/master/LICENSE)
  */
 
@@ -40,4 +40,22 @@
 
 .caption-content {
   color: black !important;
+}
+
+.myRow {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  color: black;
+}
+
+.card {
+  width: 50%;
+  margin: 15px;
+}
+
+@media (max-width: 680px) {
+  .card {
+    width: 80%;
+  }
 }
